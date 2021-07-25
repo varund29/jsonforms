@@ -31,7 +31,7 @@ import {
   JsonSchema,
   OwnPropsOfControl,
   StatePropsOfControl
-} from '@jsonforms/core';
+} from '@jsonforms/core/src/index';
 import { Input, OnDestroy, OnInit } from '@angular/core';
 import {
   AbstractControl,

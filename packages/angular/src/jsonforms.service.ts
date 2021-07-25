@@ -43,7 +43,7 @@ import {
     uischemaRegistryReducer,
     UISchemaTester,
     ValidationMode
-} from '@jsonforms/core';
+} from '@jsonforms/core/src';
 import { BehaviorSubject, Observable } from 'rxjs';
 import { JsonFormsBaseRenderer } from './base.renderer';
 

@@ -42,7 +42,7 @@ import {
   OwnPropsOfRenderer,
   StatePropsOfJsonFormsRenderer,
   UISchemaElement
-} from '@jsonforms/core';
+} from '@jsonforms/core/src/index';
 import { UnknownRenderer } from './unknown.component';
 import { JsonFormsBaseRenderer } from './base.renderer';
 import { Subscription } from 'rxjs';
