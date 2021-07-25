@@ -1,5 +1,6 @@
 {
   "name": "jsonforms-monorepo",
+  "version": "1.0.0",
   "scripts": {
     "lerna": "lerna",
     "preparePublish": "git clean -dfx && npm ci && npm run init && npm run clean && npm run build && npm run bundle && npm run test",
