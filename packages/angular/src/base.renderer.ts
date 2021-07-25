@@ -22,13 +22,14 @@
   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
   THE SOFTWARE.
 */
-import { Input } from '@angular/core';
+import { Injectable, Input } from '@angular/core';
 import {
   JsonSchema,
   OwnPropsOfRenderer,
   UISchemaElement
 } from '@jsonforms/core/src/index';
 
+Injectable()
 export class JsonFormsBaseRenderer<T extends UISchemaElement> {
   @Input() uischema: T;
   @Input() schema: JsonSchema;
