@@ -28,7 +28,7 @@ import { ChangeDetectionStrategy, ChangeDetectorRef, Component } from '@angular/
 import {
   JsonFormsAngularService,
   JsonFormsArrayControl
-} from '@jsonforms/angular';
+} from '@jsonforms/angular/src';
 import {
   ArrayControlProps,
   ControlElement,
@@ -42,7 +42,7 @@ import {
   rankWith,
   StatePropsOfArrayControl,
   uiTypeIs
-} from '@jsonforms/core';
+} from '@jsonforms/core/src/index';
 
 const keywords = ['#', 'properties', 'items'];
 

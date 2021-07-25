@@ -23,7 +23,7 @@
   THE SOFTWARE.
 */
 import 'hammerjs';
-import { RankedTester } from '@jsonforms/core';
+import { RankedTester } from '@jsonforms/core/src/index';
 export * from './module';
 import {
   BooleanControlRenderer,

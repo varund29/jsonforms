@@ -27,7 +27,7 @@ import { Component } from '@angular/core';
 import {
   JsonFormsAngularService,
   JsonFormsArrayControl
-} from '@jsonforms/angular';
+} from '@jsonforms/angular/src/index';
 import {
   ArrayControlProps,
   ControlElement,
@@ -42,7 +42,7 @@ import {
   rankWith,
   setReadonly,
   UISchemaElement
-} from '@jsonforms/core';
+} from '@jsonforms/core/src/index';
 
 @Component({
   selector: 'TableRenderer',

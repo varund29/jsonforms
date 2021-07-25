@@ -23,14 +23,14 @@
   THE SOFTWARE.
 */
 import { ChangeDetectionStrategy, Component, ChangeDetectorRef } from '@angular/core';
-import { JsonFormsAngularService, JsonFormsControl } from '@jsonforms/angular';
+import { JsonFormsAngularService, JsonFormsControl } from '@jsonforms/angular/src/index';
 import {
   and,
   isBooleanControl,
   optionIs,
   RankedTester,
   rankWith
-} from '@jsonforms/core';
+} from '@jsonforms/core/src/index';
 
 @Component({
   selector: 'ToggleControlRenderer',

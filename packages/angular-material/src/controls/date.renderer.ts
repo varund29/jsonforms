@@ -28,8 +28,8 @@ import {
   isDateControl,
   RankedTester,
   rankWith
-} from '@jsonforms/core';
-import { JsonFormsAngularService, JsonFormsControl } from '@jsonforms/angular';
+} from '@jsonforms/core/src/index';
+import { JsonFormsAngularService, JsonFormsControl } from '@jsonforms/angular/src/index';
 import { DateAdapter, NativeDateAdapter } from '@angular/material/core';
 
 @Component({

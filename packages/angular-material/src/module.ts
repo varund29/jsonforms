@@ -47,7 +47,7 @@ import { MatTableModule } from '@angular/material/table';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
-import { JsonFormsModule } from '@jsonforms/angular';
+import { JsonFormsModule } from '@jsonforms/angular/src/index';
 import { AutocompleteControlRenderer } from './controls/autocomplete.renderer';
 import { BooleanControlRenderer } from './controls/boolean.renderer';
 import { DateControlRenderer } from './controls/date.renderer';

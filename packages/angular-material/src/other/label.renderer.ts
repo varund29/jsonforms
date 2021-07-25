@@ -26,7 +26,7 @@ import { Component } from '@angular/core';
 import {
   JsonFormsAngularService,
   JsonFormsBaseRenderer
-} from '@jsonforms/angular';
+} from '@jsonforms/angular/src/index';
 import {
   getData,
   isVisible,
@@ -37,7 +37,7 @@ import {
   rankWith,
   uiTypeIs,
   getAjv
-} from '@jsonforms/core';
+} from '@jsonforms/core/src/index';
 import { Subscription } from 'rxjs';
 
 const mapStateToProps = (

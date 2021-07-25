@@ -28,7 +28,7 @@ import {
   OnDestroy,
   OnInit
 } from '@angular/core';
-import { JsonFormsAngularService, JsonFormsAbstractControl } from '@jsonforms/angular';
+import { JsonFormsAngularService, JsonFormsAbstractControl } from '@jsonforms/angular/src/index';
 import {
   ArrayLayoutProps,
   createDefaultValue,
@@ -46,7 +46,7 @@ import {
   UISchemaElement,
   UISchemaTester,
   unsetReadonly
-} from '@jsonforms/core';
+} from '@jsonforms/core/src/index';
 
 @Component({
   selector: 'app-array-layout-renderer',

@@ -23,8 +23,8 @@
   THE SOFTWARE.
 */
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component, ViewRef} from '@angular/core';
-import { JsonFormsAngularService, JsonFormsControl } from '@jsonforms/angular';
-import { isBooleanControl, RankedTester, rankWith } from '@jsonforms/core';
+import { JsonFormsAngularService, JsonFormsControl } from '@jsonforms/angular/src/index';
+import { isBooleanControl, RankedTester, rankWith } from '@jsonforms/core/src/index';
 
 @Component({
   selector: 'BooleanControlRenderer',

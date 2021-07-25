@@ -23,7 +23,7 @@
   THE SOFTWARE.
 */
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { JsonFormsAngularService, JsonFormsControl } from '@jsonforms/angular';
+import { JsonFormsAngularService, JsonFormsControl } from '@jsonforms/angular/src/index';
 import {
   getLocale,
   isIntegerControl,
@@ -32,7 +32,7 @@ import {
   RankedTester,
   rankWith,
   StatePropsOfControl
-} from '@jsonforms/core';
+} from '@jsonforms/core/src/index';
 import merge from 'lodash/merge';
 
 @Component({

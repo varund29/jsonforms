@@ -23,9 +23,9 @@
   THE SOFTWARE.
 */
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component } from '@angular/core';
-import { GroupLayout, RankedTester, rankWith, uiTypeIs } from '@jsonforms/core';
+import { GroupLayout, RankedTester, rankWith, uiTypeIs } from '@jsonforms/core/src/index';
 import { LayoutRenderer } from './layout.renderer';
-import { JsonFormsAngularService } from '@jsonforms/angular';
+import { JsonFormsAngularService } from '@jsonforms/angular/src/index';
 
 @Component({
   selector: 'GroupLayoutRenderer',

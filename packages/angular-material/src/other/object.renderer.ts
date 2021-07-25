@@ -28,7 +28,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 import {
   JsonFormsAngularService,
   JsonFormsControlWithDetail
-} from '@jsonforms/angular';
+} from '@jsonforms/angular/src/index';
 import {
   ControlWithDetailProps,
   findUISchema,
@@ -38,7 +38,7 @@ import {
   rankWith,
   setReadonly,
   UISchemaElement
-} from '@jsonforms/core';
+} from '@jsonforms/core/src';
 
 @Component({
   selector: 'ObjectRenderer',

@@ -24,7 +24,7 @@
 */
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
 import { MatAutocompleteSelectedEvent } from '@angular/material/autocomplete';
-import { JsonFormsAngularService, JsonFormsControl } from '@jsonforms/angular';
+import { JsonFormsAngularService, JsonFormsControl } from '@jsonforms/angular/src/index';
 import {
   Actions,
   composeWithUi,
@@ -33,7 +33,7 @@ import {
   OwnPropsOfControl,
   RankedTester,
   rankWith
-} from '@jsonforms/core';
+} from '@jsonforms/core/src/index';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { startWith } from 'rxjs/operators';

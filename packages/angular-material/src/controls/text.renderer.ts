@@ -23,8 +23,8 @@
   THE SOFTWARE.
 */
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { JsonFormsAngularService, JsonFormsControl } from '@jsonforms/angular';
-import { isStringControl, RankedTester, rankWith } from '@jsonforms/core';
+import { JsonFormsAngularService, JsonFormsControl } from '@jsonforms/angular/src/index';
+import { isStringControl, RankedTester, rankWith } from '@jsonforms/core/src/index';
 
 @Component({
   selector: 'TextControlRenderer',

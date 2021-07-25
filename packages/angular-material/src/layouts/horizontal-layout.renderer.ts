@@ -28,9 +28,9 @@ import {
   RankedTester,
   rankWith,
   uiTypeIs
-} from '@jsonforms/core';
+} from '@jsonforms/core/src/index';
 import { LayoutRenderer } from './layout.renderer';
-import { JsonFormsAngularService } from '@jsonforms/angular';
+import { JsonFormsAngularService } from '@jsonforms/angular/src/index';
 
 @Component({
   selector: 'HorizontalLayoutRenderer',

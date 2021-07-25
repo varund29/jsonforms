@@ -26,14 +26,14 @@ import { OnDestroy, OnInit, ChangeDetectorRef } from '@angular/core';
 import {
   JsonFormsAngularService,
   JsonFormsBaseRenderer
-} from '@jsonforms/angular';
+} from '@jsonforms/angular/src/index';
 import {
   JsonFormsState,
   Layout,
   mapStateToLayoutProps,
   OwnPropsOfRenderer,
   UISchemaElement
-} from '@jsonforms/core';
+} from '@jsonforms/core/src/index';
 import { Subscription } from 'rxjs';
 
 export class LayoutRenderer<T extends Layout> extends JsonFormsBaseRenderer<T>
